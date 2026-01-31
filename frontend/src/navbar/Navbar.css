@@ -1,0 +1,51 @@
+/* src/components/Navbar.css */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 16px 32px;
+  background-color: #fcf8f8;
+
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Logo / App Name */
+nav h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #f5afaf;
+}
+
+/* Links container */
+nav div {
+  display: flex;
+  gap: 24px;
+}
+
+/* Navbar links */
+nav a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #444;
+
+  padding: 8px 14px;
+  border-radius: 20px;
+
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+nav a:hover {
+  background-color: #f9dfdf;
+  color: #000;
+}
+
+/* Active link (optional) */
+nav a.active {
+  background-color: #f5afaf;
+  color: white;
+}
